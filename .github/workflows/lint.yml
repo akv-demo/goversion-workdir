@@ -1,7 +1,7 @@
 on:
+  push:
   pull_request:
-    paths:
-      - backend/**
+
 
 name: Lint
 jobs:
